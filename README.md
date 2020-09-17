@@ -13,7 +13,7 @@ Promises will always have one of three states, **Pending**, **Resolved**, or **R
 - **Resolved** state is when a Promise has successfully completed its asynchronous process.
 - **Rejected** state is when a Promise did not successfully complete its asynchronous process.
 
-Consider the below code snippet. `SomeFunction()` will return a Promise and while `someFunction()` is currently executing, the state of the Promise is **Pending**. When `someFunction()` completes execution, the Promise will change from **Pending** to either **Resolved** if successful or **Rejected** if unsuccessful. If **Resolved**, `then()` will execute. If **Rejected**, `catch()` will execute.
+Consider the below code snippet. `someFunction()` will return a Promise and while `someFunction()` is currently executing, the state of the Promise is **Pending**. When `someFunction()` completes execution, the Promise will change from **Pending** to either **Resolved** if successful or **Rejected** if unsuccessful. If **Resolved**, `then()` will execute. If **Rejected**, `catch()` will execute.
 
 ```
 return someFunction( ... ).then( ... ).catch( ... );
