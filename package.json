@@ -4,7 +4,8 @@
     "private": true,
     "description": "Typescript promise patterns",
     "scripts": {
-        "pattern-simple": "tsc ./promise-patterns/simple/simple.ts && node ./promise-patterns/simple/simple.js"
+        "pattern-simple": "tsc ./promise-patterns/simple/simple.ts && node ./promise-patterns/simple/simple.js",
+        "pattern-simple-math": "tsc ./promise-patterns/simple/math.ts && node ./promise-patterns/simple/math.js"
     },
     "devDependencies": {
         "@tsconfig/node12": "^1.0.7",
