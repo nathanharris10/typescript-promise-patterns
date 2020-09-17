@@ -5,7 +5,8 @@
     "description": "Typescript promise patterns",
     "scripts": {
         "pattern-simple": "tsc ./promise-patterns/simple/simple.ts && node ./promise-patterns/simple/simple.js",
-        "pattern-chain-math": "tsc ./promise-patterns/chain/math.ts && node ./promise-patterns/chain/math.js"
+        "pattern-chain-math": "tsc ./promise-patterns/chain/math.ts && node ./promise-patterns/chain/math.js",
+        "pattern-chain-database": "tsc ./promise-patterns/chain/database.ts && node ./promise-patterns/chain/database.js"
     },
     "devDependencies": {
         "@tsconfig/node12": "^1.0.7",

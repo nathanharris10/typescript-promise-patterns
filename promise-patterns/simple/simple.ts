@@ -16,8 +16,8 @@ function C(): Promise<void> {
 
 console.log("Simple Promise Pattern");
 A()
-  .then(() => B())
-  .then(() => C())
+  .then(B)
+  .then(C)
   .catch((error) => {
     console.log(`${error}`);
   });

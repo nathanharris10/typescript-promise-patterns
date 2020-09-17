@@ -1,3 +1,5 @@
+// Example of chaining like functions
+
 function addFive(number: number): Promise<number> {
   console.log(`${number} + 5 = ${number + 5}`);
   return Promise.resolve(number + 5);
